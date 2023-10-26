@@ -1,0 +1,33 @@
+<html><center>
+    <header>
+        <h1>The scoreboard</h1>
+        <p>Let's play some ball!</p>
+    </header>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="scoreboard.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1></h1>
+            <div class="scoreboard-stat1">
+                <h3>HOME</h3>
+                    <p id="home-team">0</p>
+                    <button onclick="onepointH()">+1</button>
+                    <button onclick="twopointH()">+2</button>
+                    <button onclick="threepointH()">+3</button>
+            </div>
+            <div class="scoreboard-stat2">
+                <h3><span>GUEST</span></h3>
+                    <p id="away-team">0</p>
+                    <button onclick="onepointA()">+1</button>
+                    <button onclick="twopointA()">+2</button>
+                    <button onclick="threepointA()">+3</button>
+            </div>        
+        </div>
+       
+        <script src="scoreboard.js"></script>
+    </body>
+</center></html>
